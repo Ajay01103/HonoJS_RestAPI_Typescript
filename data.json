@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": 0,
+      "title": "Buy Groceries",
+      "completed": false
+    },
+    {
+      "id": 1,
+      "title": "Buy Milk Products",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Walk 2km with Dog",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "title": "Read a book",
+      "completed": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "hono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wrangler dev index.ts",
+    "deploy": "wrangler deploy --minify index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "wrangler": "^3.50.0"
+  },
+  "dependencies": {
+    "@upstash/ratelimit": "^1.0.3",
+    "@upstash/redis": "^1.29.0",
+    "hono": "^4.2.3"
+  }
+}
